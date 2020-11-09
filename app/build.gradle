@@ -35,6 +35,7 @@ android {
 
 dependencies {
     implementation 'android.arch.persistence.room:runtime:1.1.1'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
     kapt 'android.arch.persistence.room:compiler:1.1.1'
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
